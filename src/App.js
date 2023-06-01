@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h8k-navbar header={title}></h8k-navbar>
+        <h8k-navbar data-test-id={title} header={title}></h8k-navbar>
         <ColorPicker
           colorPickerOptions={this.props.colorPickerOptions}
           initialSelectedColor={this.props.initialSelectedColor}
